@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "vanillahack",
+  "version": "${version}",
+  "name": "VanillaHack",
+  "description": "VanillaHack Cheat Client for Minecraft 26.2",
+  "authors": [
+    "slaughterhouse"
+  ],
+  "contact": {
+    "homepage": "https://github.com/SLHJHHHH/VanillaHack",
+    "sources": "https://github.com/SLHJHHHH/VanillaHack",
+    "dev": "https://t.me/skotoboynyaya"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/vanillahack/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.vanillahack.VanillaHackClient"
+    ]
+  },
+  "mixins": [
+    "vanillahack.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.2",
+    "java": ">=25"
+  }
+}
