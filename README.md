@@ -46,6 +46,6 @@ VanillaHack is primarily designed around BedWars gameplay rather than being a ge
 
 The goal is to keep the client fast, clean and focused while providing a modern user interface.
 
-License
+## License
 
-License information will be added later.
+VanillaHack is licensed under the [GNU General Public License v3.0](LICENSE).
